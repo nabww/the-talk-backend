@@ -10,7 +10,7 @@ const addUser = async (req, res) => {
     message: message,
   })
     .then(() => {
-      res.json("User added!");
+      res.json("User added to mailing list!");
     })
     .catch((error) => {
       if (error) {
